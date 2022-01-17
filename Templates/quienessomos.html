@@ -1,0 +1,156 @@
+{% extends "base.html" %}
+
+{% block title %}8TEAMDEV's Website{% endblock %}
+
+{% block content %}
+ <!-- Navigation-->
+ <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+    <div class="container px-5">
+        <a class="navbar-brand fw-bold" href="/index">8TeamDevs</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#quienessomos">Quienes Somos</a></li>
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#proyectos">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#talentohumano">Talento Humano</a></li>
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#contacto">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link me-lg-3" href="#noticias">Noticias</a></li>
+            </ul>
+            <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                <span class="d-flex align-items-center">
+                    <i class="bi-chat-text-fill me-2"></i>
+                    <span class="small">Escríbenos</span>
+                </span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- Basic features section-->
+    <section class="bg-light">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+                <div class="col-12 col-lg-5">
+                    <h2 class="display-4 lh-1 mb-4">Somos una empresa de Desarrollo Web</h2>
+                    <p class="lead fw-normal text-lg-center text-muted mb-5 mb-lg-0" height="100px" widht="100px">Ayudamos a otras empresas a encontrar el producto óptimo para su caso. Hacemos planeación, diseño y construcción de páginas y aplicaciones web incluyendo la creación del contenido digital además de los elementos de diseño y experiencia de usuario.</p>
+                </div>
+                <div class="col-sm-8 col-md-6">
+                    <div class="px-5 px-sm-0" ><img class=" circle-box img-inside" src="static/assets/img/colombia.png"  /></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="bg-light">
+        <div class="container px-5">
+            <div class="col-12 col-lg-5 img-fluid rounded-circle">
+                <div class="rc px-5 px-sm-0">
+                    <div class="fb-video" width="700" height="700" autoplay muted loop data-href="https://www.facebook.com/posthueco/videos/525718448437078">
+                    </div>
+                </div>
+            </div>
+            <div class="container gx-5">
+            <div class="row gx-5 align-items-center justify-content-center justify-content-lg-end">
+                
+                <div class="col-sm-8 col-md-6">
+                    
+                    <h2 class="display-4 lh-1 mb-4">Nacimos durante la MisiónTIC 2022</h2>
+                    <p class="lead fw-normal text-lg-center text-muted mb-5 mb-lg-0">En este programa del Ministerio TIC de Colombia teníamos la misión de construir diferentes piezas de software requeridas por nuestros clientes en el contexto de nuestras actividades académicas coordinadas por la Universidad del Norte. Fuimos asignados como el Equipo 8 durante el tercer ciclo y decidimos continuar con ese nombre y el mismo equipo de amigos porque cumplimos nuestro objetivo de desarrollar los mejores productos posibles con lo que aprendimos de nuestra formación.</p>
+                </div>
+            </div> 
+            </div>
+        </div>
+    </section>
+            <!-- Quote/testimonial aside-->
+            <aside class="text-center bg-gradient-primary-to-secondary">
+                <div class="container px-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-xl-8">
+                            <div class="h2 fs-1 text-white mb-4">"La Misión TIC 2022 es un programa liderado por el Gobierno Nacional con un gran objetivo:  formar 100.000 colombianos en programación para enfrentar los desafíos de la Industria 4.0"</div>
+                            
+                            <div class="dot">
+                                <img class="img-fluid", src="static/assets/img/logo-mision.png"/>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </aside>
+    
+<section class="bg-light">
+    <div class="container px-5">
+            <!-- Features Starts Here -->
+    <div class="features-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-heading">
+                <span>Best Quality for you</span>
+                <h2>Cloud Features</h2>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="feature-item">
+                <div class="icon">
+                  <img src="assets/images/feature-01.png" alt="">
+                </div>
+                <h4>Load Balanced</h4>
+                <p>Nulla nisl ex, vehicula in urna nec, commodo consectetur augue. Vivamus nec metus mauris. Praesent lacinia tempus urna.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="feature-item">
+                <div class="icon">
+                  <img src="assets/images/feature-01.png" alt="">
+                </div>
+                <h4>99.9% Uptime Guaranteed</h4>
+                <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="feature-item">
+                <div class="icon">
+                  <img src="assets/images/feature-01.png" alt="">
+                </div>
+                <h4>Top Reliability</h4>
+                <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="feature-item">
+                <div class="icon">
+                  <img src="assets/images/feature-01.png" alt="">
+                </div>
+                <h4>High Security</h4>
+                <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="feature-item">
+                <div class="icon">
+                  <img src="assets/images/feature-01.png" alt="">
+                </div>
+                <h4>Quality Hardwares</h4>
+                <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="feature-item">
+                <div class="icon">
+                  <img src="assets/images/feature-01.png" alt="">
+                </div>
+                <h4>Network Solutions</h4>
+                <p>Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- Features Ends Here -->
+    </section>
+{% endblock %}
